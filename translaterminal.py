@@ -1,5 +1,4 @@
 # Importando las librerías necesarias
-import posix
 import requests, os
 import pyperclip as clipboard
 
@@ -53,7 +52,7 @@ def Traduccion(source, target, text):
 # Creando la función principal
 def app():
     while True:
-        os.system("clear || cls")
+        cleanscreen()
         print(LOGO)
         print(INFORMACION)
         print(LENGUAJES)
@@ -73,12 +72,12 @@ def app():
                     clipboard.copy(respuesta)
                     respuesta = ("[Resultado] " + str(respuesta) + " (Copiado al portapapeles)")
                     input(respuesta)
-                    os.system("clear || cls")
+                    cleanscreen()
                 except:
                     print("Error: No se pudo copiar al portapapeles")
                     respuesta = ("[Resultado] " + str(respuesta))
                     input(respuesta)
-                    os.system("clear || cls")
+                    cleanscreen()
 
 # Llamando a la función principal
 app()
