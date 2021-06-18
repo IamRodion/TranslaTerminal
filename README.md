@@ -6,8 +6,17 @@ Un traductor de idiomas hecho en Python3 en modo terminal para linux.
 ```
 git clone https://github.com/RodionButEncapsulated/TranslaTerminal.git
 cd TranslaTerminal/
+pip3 install -r requirements.txt
 python3 translaterminal.py
 ```
+* Windows
+```
+git clone https://github.com/RodionButEncapsulated/TranslaTerminal.git
+cd TranslaTerminal/
+pip3 install -r requirements.txt
+python3 translaterminal.py
+```
+
 * Google Colab
 ```
 !git clone https://github.com/RodionButEncapsulated/TranslaTerminal.git
