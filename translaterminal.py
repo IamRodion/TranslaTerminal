@@ -61,11 +61,14 @@ def app():
                 respuesta = Traduccion("es", language_to, text)
                 try:
                     clipboard.copy(respuesta)
+                    respuesta = ("[Resultado] " + str(respuesta) + " (Copiado al portapapeles)")
+                    input(respuesta)
+                    os.system("clear || cls")
                 except:
                     print("Error: No se pudo copiar al portapapeles")
-                respuesta = ("[Resultado] " + str(respuesta) + " (Copiado al portapapeles)")
-                input(respuesta)
-                os.system("clear || cls")
+                    respuesta = ("[Resultado] " + str(respuesta))
+                    input(respuesta)
+                    os.system("clear || cls")
 
 # Llamando a la función principal
 app()
