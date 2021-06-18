@@ -2,10 +2,18 @@
 Un traductor de idiomas hecho en Python3 en modo terminal para linux.
 
 ## Como instalar:
+* Linux
 ```
 git clone https://github.com/RodionButEncapsulated/TranslaTerminal.git
 cd TranslaTerminal/
 python3 translaterminal.py
+```
+* Google Colab
+```
+!git clone https://github.com/RodionButEncapsulated/TranslaTerminal.git
+%cd TranslaTerminal
+!pip install -r requirements.
+!python3 translaterminal.py
 ```
 
 ## Requisitos:
