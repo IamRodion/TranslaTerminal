@@ -2,8 +2,8 @@
 Un traductor de idiomas hecho en Python3 en modo terminal para linux.
 
 <p align="left">
-<img src="./img/TranslaTerminal.png"/>
 <img src="./img/TraslaTerminal Banner.svg"/>
+<img src="./img/TranslaTerminal.png"/>
 </p>
 
 ## Como instalar:
