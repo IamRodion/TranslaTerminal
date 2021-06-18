@@ -12,7 +12,7 @@ python3 translaterminal.py
 ```
 !git clone https://github.com/RodionButEncapsulated/TranslaTerminal.git
 %cd TranslaTerminal
-!pip install -r requirements.
+!pip install -r requirements.txt
 !python3 translaterminal.py
 ```
 
