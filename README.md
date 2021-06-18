@@ -18,6 +18,6 @@ Sólo debe ingresar el **código**. Por ejemplo, sí se desea traducir al **ingl
 Luego se solicitará el texto a traducir, el cual pueden ser frases o palabras.
 Finalmente se mostrará:
 ```
-[Resultado] **Frase Traducida** (Copiado al portapapeles)
+[Resultado] Frase Traducida (Copiado al portapapeles)
 ```
 La frase traducida se encontrará disponible en el portapapeles para poder pegarla (Ctrl+v) donde se desee.
