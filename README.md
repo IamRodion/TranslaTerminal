@@ -3,7 +3,7 @@ Un traductor de idiomas hecho en Python3 en modo terminal para linux.
 
 ## Como instalar:
 ```
-git clone https://github.com/RodionButEncapsulated/traductor-de-palabras.git
+git clone https://github.com/RodionButEncapsulated/TranslaTerminal.git
 cd traductor-de-palabras/
 python3 translaterminal.py
 ```
