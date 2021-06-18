@@ -2,7 +2,7 @@
 Un traductor de idiomas hecho en Python3 en modo terminal para linux.
 
 <p align="left">
-<img src="./img/TraslaTerminal Banner.svg"/>
+<img src="./img/TraslaTerminal Banner.svg" width="200" height="50"/>
 <img src="./img/TranslaTerminal.png"/>
 </p>
 
