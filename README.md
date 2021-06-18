@@ -20,10 +20,10 @@ pip install -r requirements.txt
 ```
 
 ## Como usarlo:
-Al ejecutarse, el programa solicitará el código de un idioma para traducir el texto. Arriba mostrará ejemplos de cómo ingresar el **idioma** deseado en formato “[código] Idioma”.
+* Al ejecutarse, el programa solicitará el código de un idioma para traducir el texto. Arriba mostrará ejemplos de cómo ingresar el **idioma** deseado en formato “[código] Idioma”.
 Sólo debe ingresar el **código**. Por ejemplo, sí se desea traducir al **inglés** se debe ingresar el código **en**.
-Luego se solicitará el texto a traducir, el cual pueden ser frases o palabras.
-Finalmente se mostrará:
+* Luego se solicitará el texto a traducir, el cual pueden ser frases o palabras.
+* Finalmente se mostrará:
 ```
 [Resultado] Frase Traducida (Copiado al portapapeles)
 ```
