@@ -1,7 +1,7 @@
 # TranslaTerminal
 Un traductor de idiomas hecho en Python3 en modo terminal para linux.
 
-<p align="left">
+<p align="center">
 <img src="./img/TraslaTerminal Banner.svg" width="600px" height="300px"/>
 <img src="./img/TranslaTerminal.png"/>
 </p>
