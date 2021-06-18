@@ -43,7 +43,7 @@ def Traduccion(source, target, text):
 # Creando la función principal
 def app():
     while True:
-        os.system("clear")
+        os.system("clear || cls")
         print(LOGO)
         print(INFORMACION)
         print(LENGUAJES)
@@ -59,10 +59,13 @@ def app():
                 break
             else:
                 respuesta = Traduccion("es", language_to, text)
-                clipboard.copy(respuesta)
+                try:
+                    clipboard.copy(respuesta)
+                except:
+                    print("Error: No se pudo copiar al portapapeles")
                 respuesta = ("[Resultado] " + str(respuesta) + " (Copiado al portapapeles)")
                 input(respuesta)
-                os.system("clear")
+                os.system("clear || cls")
 
 # Llamando a la función principal
 app()
