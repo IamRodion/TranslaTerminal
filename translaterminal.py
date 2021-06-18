@@ -1,4 +1,5 @@
 # Importando las librerías necesarias
+import posix
 import requests, os
 import pyperclip as clipboard
 
@@ -27,6 +28,15 @@ Idiomas Frecuentes:
 [pt] Portuges   \t[exit] Salir
 
 """
+
+# Creando la función para limpiar la pantalla
+def cleanscreen():
+    if os.name == "posix":
+        os.system("clear")
+    elif os.name == "NT" or os.name == "java":
+        os.system("cls")
+    else:
+        print()
 
 # Creando la función de petición de traducción
 def Traduccion(source, target, text):
