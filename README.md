@@ -1,6 +1,13 @@
 # TranslaTerminal
 Un traductor de idiomas hecho en Python3 en modo terminal para linux.
 
+## Como instalar:
+```
+git clone https://github.com/RodionButEncapsulated/traductor-de-palabras.git
+cd traductor-de-palabras/
+python3 translaterminal.py
+```
+
 ## Requisitos:
 
 Para que el programa funcione correctamente, será **necesario instalar** las siguientes **librerias**:
