@@ -15,7 +15,7 @@ LOGO = """
 
 INFORMACION = """[info] \t\tSoftware de traducción de idiomas por terminal.
 [created by] \tLuis Alejandro Salcedo (https://github.com/LuisAlejandroSalcedo)
-[edited by] \t__Rodion__ (https://github.com/RodionButEncapsulated) """
+[edited by] \t__Rodion__ (github.com/IamRodion) """
 
 LENGUAJES = """
 Idiomas Frecuentes:
